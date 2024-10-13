@@ -5,7 +5,7 @@ import (
 )
 
 func Test_greet(t *testing.T) {
-	want := "Hello world!"
+	want := "Hello, World!"
 	if got := greet(); got != want {
 		t.Errorf("greet() = %v, want %v", got, want)
 	}
